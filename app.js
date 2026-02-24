@@ -1,3 +1,8 @@
+async function loadInventory(){
+  let { data, error } = await supabase.from('inventory').select('*');
+
+  alert("DATA: " + JSON.stringify(data));
+  alert("ERROR: " + JSON.stringify(error));
 const supabase = window.supabase.createClient(
   "https://kgsczbchtgtncfaaxpdt.supabase.co",
   "sb_publishable_tfAGMsIfL9A7WxmA7SELaQ_BHcmN2bc"
