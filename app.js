@@ -1,8 +1,7 @@
-
-   https://kgsczbchtgtncfaaxpdt.supabase.co
-   sb_publishable_tfAGMsIfL9A7WxmA7SELaQ_BHcmN2bc
+const supabase = window.supabase.createClient(
+  "https://kgsczbchtgtncfaaxpdt.supabase.co",
+  "sb_publishable_tfAGMsIfL9A7WxmA7SELaQ_BHcmN2bc"
 );
-
 function calculatePrice(cat, days) {
   const table = {
     Knatte:[140,220,290,340,380,420,420],
