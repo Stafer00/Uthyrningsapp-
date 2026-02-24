@@ -1,6 +1,6 @@
 const supabase = window.supabase.createClient(
   "https://kgsczbchtgtncfaaxpdt.supabase.co",
-  "sb_publishable_tfAGMsIfL9A7WxmA7SELaQ_BHcmN2bc"
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imtnc2N6YmNodGd0bmNmYWF4cGR0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE4ODE5MzAsImV4cCI6MjA4NzQ1NzkzMH0.uOrvRpG7B2jKXueATZvjGRkmbSx-8OKVq7os5i8aN2E
 );
 
 function calculatePrice(cat, days) {
